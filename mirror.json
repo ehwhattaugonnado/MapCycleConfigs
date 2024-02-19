@@ -1,0 +1,54 @@
+{
+    "ConfigVersion": 2,
+    "MapCycle": {
+        "RandomOrder": true,
+        "MapChangeAtTheEndOfMatchDelay": 19
+    },
+    "Maps": [
+        {
+            "Name": "mirror_de_dust2",
+            "DisplayName": "Dust2",
+            "Id": "3117367319",
+            "Workshop": true
+        },
+        {
+            "Name": "mirror_de_inferno",
+            "DisplayName": "Inferno",
+            "Id": "3110463075",
+            "Workshop": true
+        },
+        {
+            "Name": "mirror_de_overpass",
+            "DisplayName": "Overpass",
+            "Id": "3114471649",
+            "Workshop": true
+        },
+        {
+            "Name": "mirror_de_mirage",
+            "DisplayName": "Mirage",
+            "Id": "3112468244",
+            "Workshop": true
+        },
+        {
+            "Name": "mirror_de_nuke",
+            "DisplayName": "Nuke",
+            "Id": "3145028641",
+            "Workshop": true
+        }
+    ],
+    "Rtv": {
+        "Enabled": true,
+        "AutoVoteEnabled": true,
+        "AutoVoteTimeStartInSeconds": 1800,
+        "PlayerCommandEnabled": true,
+        "PlayerCommandTriggerAVote": true,
+        "PlayerCommandRatioEnabled": false,
+        "PlayerCommandRatio": 0.5,
+        "PlayerCommandChangeTheMapDirectlyAfterVote": true,
+        "VoteMapCount": 5,
+        "VoteDurationInSeconds": 60,
+        "VoteRatioEnabled": true,
+        "VoteRatio": 0.5,
+        "ExtendMap": true
+    }
+}
